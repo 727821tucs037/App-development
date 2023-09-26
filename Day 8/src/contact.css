@@ -1,0 +1,67 @@
+/* Style for the Contact Us section container */
+.contact-us-container {
+    background-color: #f9f9f9;
+    padding: 0px 0;
+    text-align: center;
+  }
+  
+  /* Style for the Contact Us content */
+  .contact-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Style for the Contact Us heading */
+  .contact-us-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 150px;
+  }
+  
+  /* Style for the Contact Us description */
+  .contact-us-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Style for the Contact Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for form input fields */
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Style for the "Send Message" button */
+  .cta-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: -100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #2980b9;
+  }
+  

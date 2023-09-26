@@ -1,0 +1,125 @@
+/* Style for the entire workout page container */
+.workout-container {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the header section */
+  .header {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Style for the workout content section   .workout-content {
+    padding: 20px;*/
+
+
+    .ggg11{
+        width: 1000px;
+        top:200px;
+        
+    }
+
+
+    /* Style for the entire workout page container */
+.workout-container {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the workout content section */
+.workout-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Style for the workout heading */
+.workout-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the workout description */
+.workout-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Style for the workout list of plans */
+.workout-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Style for individual workout plans */
+.workout-plan {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Style for the plan title */
+.plan-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style for the plan description */
+.plan-description {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Style for the "Start Workout" button */
+.cta-button {
+right:200px; 
+bottom: 550px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+}

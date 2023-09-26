@@ -1,0 +1,75 @@
+/* Style for the main footer container */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+  /* Style for the footer content */
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  /* Style for the footer logo */
+  .footer-logo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the footer links */
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display the list items horizontally */
+  }
+  
+  .footer-links li {
+    margin-right: 20px; /* Add some spacing between the links */
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Style for the footer social media section */
+  .footer-social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-social p {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Style for the social media icons */
+  .social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #e74c3c;
+  }
+  
